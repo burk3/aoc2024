@@ -12,6 +12,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "coord_2d"
+version = "0.3.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f1020a2ed8bf43fc850b01db7570c0e4194d3e3d8d806a5f1857d2ab15feec57"
+
+[[package]]
 name = "d01"
 version = "0.1.0"
 
@@ -33,6 +39,22 @@ version = "0.1.0"
 [[package]]
 name = "d05"
 version = "0.1.0"
+
+[[package]]
+name = "d06"
+version = "0.1.0"
+dependencies = [
+ "direction",
+]
+
+[[package]]
+name = "direction"
+version = "0.18.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3c56672976b806b6fe8e41998c6d0503cd02479c6059c47451ce8addc7871271"
+dependencies = [
+ "coord_2d",
+]
 
 [[package]]
 name = "memchr"
